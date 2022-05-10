@@ -1,6 +1,7 @@
 .body{
-  padding: 0px;
-  margin: 0px;
+  /* padding: 0px;
+  margin: 0px; */
+  background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12) !important;
 }
 .header
 {
@@ -8,7 +9,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  color: white;
 }
 .header1
 {
@@ -17,12 +20,12 @@
   justify-content: center;
   flex-direction: row;
   padding-top: 20px;
-  height: 40vh;
+  height: 10vh;
   width: 100vw;
   margin: 1rem;
 }
 .colorbtn
 {
-  color: rebeccapurple;
+  color: rgb(33, 8, 57);
   cursor: pointer;
 }

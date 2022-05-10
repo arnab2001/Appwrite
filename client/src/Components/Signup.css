@@ -1,3 +1,6 @@
+.form-label {
+  color: white !important;
+}
 .signup-form
 {
   display: flex;
@@ -13,4 +16,8 @@
 .signup
 {
   display: flex;
+}
+label
+{
+  color: white !important;
 }

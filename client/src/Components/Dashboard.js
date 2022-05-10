@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { account } from "../Service/Appwritesdkconfig";
 import { useNavigate } from "react-router-dom";
+import Navbar from './Navbar';
+import { Card } from "./Card";
 const Dashboard = () => {
   const navigate = useNavigate();
   const [userDetails, setuserDetails] = useState({
@@ -34,9 +36,11 @@ const Dashboard = () => {
   };
   return (
     <>
+      <Navbar/>
       <h5>{userDetails.name}</h5>
       <h5>{userDetails.email}</h5>
-      <button onClick={() => Logoutuser()}>Logout</button>
+      {/* <button onClick={() => Logoutuser()}>Logout</button> */}
+      <Card/>
     </>
   );
 };
