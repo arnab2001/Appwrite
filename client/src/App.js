@@ -10,13 +10,13 @@ function App() {
   return (
     <>
       <div className="header">
-        <div className="header1 d-flex w-100 h-100">
+        <div className="header1 d-flex">
           <p className="changebtn ">
             {loggedin ? "Already have an account? " : "Want a new account? "}
           </p>
           <span className="p-2"></span>
           <p
-            className="changebtn colorbtn"
+            className="changebtn colorbtn "
             onClick={() => setloggedin(!loggedin)}
           >
             {loggedin ? "Signup" : "Login"}

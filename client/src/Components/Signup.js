@@ -33,7 +33,7 @@ function Signup() {
     <Form className="signup-form">
       <h1 className="head">SIGNUP FORM</h1>
       <FormGroup className="details">
-        <Label>Username</Label>
+        <Label className="label">Username</Label>
         <Input
           type="text"
           onChange={(e) => {
@@ -44,7 +44,7 @@ function Signup() {
           }}
           placeholder="Username"
         ></Input>
-        <Label>Email</Label>
+        <Label className="label">Email</Label>
         <Input
           type="email"
           placeholder="Email"
@@ -55,7 +55,7 @@ function Signup() {
             });
           }}
         />
-        <Label>Password</Label>
+        <Label className="label">Password</Label>
         <Input
           type="password"
           onChange={(e) => {
