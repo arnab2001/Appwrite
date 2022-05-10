@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+.row
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.card-block
+{
+    padding: 50px;
+}
+.card-block3
+{
+    padding: 62px;
+}
+.card-content
+{
+    padding: 20px;
+}
+.card1
+{
+    background-color: #282926 ;
+    border-radius: 10%;
+    color:#F9D342 ;
+    font-family: 'Roboto', sans-serif;
+}
+.head-card1
+{
+    color:white ;
+}
+
+.card1:hover{
+    background-color: #F9D342;
+    color:#282926 ;
+}
+.card2
+{
+    background-color: #4A171E;
+    border-radius: 10%;
+    color:#df7b02;
+    font-family: 'Roboto', sans-serif;
+}
+.head-card2
+{
+    color:white ;
+}
+.head-card2:hover, .card2:hover{
+    background-color: #df7b02;
+    color:#4A171E ;
+    cursor: pointer;
+}
+.card3
+{
+    background-color: #243665;
+    border-radius: 10%;
+    color:#8BD8BD;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+    overflow-wrap: break-word;
+}
+.head-card3
+{
+    color:white ;
+}
+.card3:hover{
+    background-color: #8BD8BD;
+    color:#243665 ;
+    cursor: pointer;
+}

@@ -2,8 +2,9 @@ import "./App.css";
 import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
-import Dashboard from "./Components/Dashboard";
+// import Dashboard from "./Components/Dashboard";
 import { useState } from "react";
+// import Navbar from './Components/Navbar'
 function App() {
   const [loggedin, setloggedin] = useState(false);
   return (
