@@ -1,0 +1,28 @@
+.body{
+  padding: 0px;
+  margin: 0px;
+}
+.header
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.header1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 20px;
+  height: 40vh;
+  width: 100vw;
+  margin: 1rem;
+}
+.colorbtn
+{
+  color: rebeccapurple;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.login-form
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60vh;
+  width: 100vw;
+  max-width: 330px;
+  padding: 20px;
+  margin: auto;
+}
+.signup
+{
+  display: flex;
+}
